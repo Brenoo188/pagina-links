@@ -1,0 +1,86 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f0fa;
+    color: #0d1f4f;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #0d47a1; /* Azul principal */
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+/* Container dos produtos */
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Cada cartão de produto */
+.produto {
+    background-color: #bbdefb;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px; /* largura padrão */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.produto:hover {
+    transform: translateY(-5px);
+}
+
+.produto h2 {
+    margin-bottom: 10px;
+}
+
+.produto a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #0d47a1;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.produto a:hover {
+    background-color: #1565c0;
+}
+
+/* Rodapé */
+footer {
+    background-color: #0d47a1;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    margin-top: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .produto {
+        width: 45%; /* dois por linha */
+    }
+}
+
+@media (max-width: 500px) {
+    .produto {
+        width: 90%; /* ocupa quase toda a tela */
+    }
+}

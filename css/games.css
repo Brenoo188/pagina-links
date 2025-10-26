@@ -1,0 +1,74 @@
+/* Cores principais: Roxo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f0ff;
+    color: #333;
+}
+
+header {
+    background-color: #8000ff;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+    font-size: 1rem;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem 1rem;
+}
+
+.produto {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 1rem;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.produto:hover {
+    transform: translateY(-5px);
+}
+
+.produto h2 {
+    color: #8000ff;
+    font-size: 1.2rem;
+}
+
+.produto a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #8000ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.produto a:hover {
+    background-color: #4b00b3;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #8000ff;
+    color: white;
+}
