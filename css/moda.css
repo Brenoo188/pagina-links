@@ -66,9 +66,8 @@ body {
 }
 
 /* Cores por categoria */
-.eletronicos { background: linear-gradient(45deg, #515bd4, #8134af); }
-.games { background: linear-gradient(45deg, #dd2a7b, #f58529); }
-.modas { background: linear-gradient(45deg, #df4236, #f58789); }
+.fem { background: linear-gradient(45deg, #515bd4, #8134af); }
+.masc { background: linear-gradient(45deg, #dd2a7b, #f58529); }
 
 /* Efeito hover */
 .caixa-links a:hover {

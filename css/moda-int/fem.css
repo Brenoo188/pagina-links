@@ -1,0 +1,115 @@
+/* Reset básico - Adotando o padrão do Eletrônico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* Mantendo a cor de fundo clara da sua versão */
+    background-color: #f5f0ff; 
+    /* Font family igual ao eletrônico */
+    font-family: Arial, sans-serif;
+    color: #ffffff; 
+    line-height: 1.6; /* Padrão do eletrônico */
+}
+
+/* Cabeçalho - Adotando o padrão do Eletrônico (px) */
+header {
+    background-color: #5f0101; /* Vinho Escuro */
+    color: white;
+    text-align: center;
+    padding: 20px 10px; /* Padrão do eletrônico */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem; /* Mantido o rem para tamanho de fonte grande */
+}
+
+header p {
+    margin: 0.5rem 0 0;
+    font-size: 1rem;
+}
+
+/* Container dos produtos - Adotando o padrão do Eletrônico */
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Padrão do eletrônico */
+    padding: 20px; /* Padrão do eletrônico */
+}
+
+/* Cada cartão de produto - Adotando o padrão do Eletrônico (px) */
+.produto {
+    background-color: rgba(255, 146, 146, 0.986); /* Vermelho Médio */
+    border-radius: 8px; /* Padrão do eletrônico */
+    padding: 20px; /* Padrão do eletrônico */
+    width: 300px; 
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+    color: #5a0202; /* Garante que o texto dentro da caixa seja branco */
+}
+
+.produto:hover {
+    transform: translateY(-5px);
+}
+
+/* Título do Produto - Padronizado com margens do eletrônico */
+.produto h2 {
+    color: #8b0000;
+    font-size: 1.2rem;
+    margin-bottom: 10px; /* Padrão do eletrônico */
+    /* Garante que o texto não fique colado */
+    margin-top: 0; 
+}
+
+/* Preço - Padronizado */
+.produto p {
+    
+    margin-bottom: 15px; /* Padrão do eletrônico + ajuste para botão */
+}
+
+/* Botão de compra - Padronizado com o Eletrônico */
+.produto a {
+    display: inline-block;
+    margin-top: 10px; /* Padrão do eletrônico */
+    padding: 10px 20px; /* Padrão do eletrônico */
+    background-color: #680000; /* Vinho Escuro */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px; /* Padrão do eletrônico */
+    transition: background-color 0.2s;
+    /* Remover borda extra para padronizar com eletrônico */
+}
+
+/* Hover do Botão - Padrão do Eletrônico: muda a cor do background */
+.produto a:hover {
+    background-color: #940000; /* Tom de vermelho escuro um pouco mais claro que o botão */
+    color: white; 
+    /* Remove a mudança de border-color que não existia no eletrônico */
+}
+
+/* Rodapé - Adotando o padrão do Eletrônico */
+footer {
+    background-color: #5f0101; /* Vinho Escuro */
+    color: white;
+    text-align: center;
+    padding: 15px 10px; /* Padrão do eletrônico */
+    margin-top: 20px; /* Padrão do eletrônico */
+}
+
+/* Responsividade - Padrão do Eletrônico */
+@media (max-width: 768px) {
+    .produto {
+        width: 45%; /* dois por linha */
+    }
+}
+
+@media (max-width: 500px) {
+    .produto {
+        width: 90%; /* ocupa quase toda a tela */
+    }
+}
