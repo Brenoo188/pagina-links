@@ -77,6 +77,38 @@ body {
   opacity: 0.95;
 }
 
+.btn-voltar {
+
+    position: fixed; /* Fixa o botão na tela */
+    bottom: 710px;    /* Distância da parte inferior */
+    left: 20px;      /* Distância da lateral esquerda */    
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #dd2a7b; /* azul Mercado Livre-like */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    
+}
+
+.btn-voltar:hover {
+    background-color: #8134af;
+    transform: translateY(-2px);
+}
+
+
+.produto img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    background-color: #fff;
+}
+
 /* Responsivo */
 @media (max-width: 500px) {
   .caixa-links {

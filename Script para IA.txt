@@ -1,0 +1,55 @@
+Script para IA
+
+
+🔹 Contexto Geral
+
+Eu tenho uma conta de afiliado (ex: Mercado Livre) e estou desenvolvendo um site em HTML e CSS, que já está totalmente funcional.
+O site serve para exibir produtos com meus links de afiliado, e as pessoas acessam o site pelo link que deixei na bio do Instagram.
+
+O Instagram da loja também já está criado e ativo.
+Agora, o foco principal é atualizar, melhorar e expandir o site — tanto em aparência quanto em funcionalidades simples.
+
+🧩 O Projeto Atualmente
+
+O site é dividido por categorias de produtos (ex: Games e Informática, Eletrônicos, etc).
+
+Cada página segue o mesmo layout, com cabeçalho, cards de produtos, botão de compra e rodapé.
+
+Tudo está feito apenas em HTML e CSS puro (sem JavaScript por enquanto).
+
+As atualizações futuras incluem melhorias visuais, usabilidade e novas páginas.
+
+✏️ O Que Eu Quero Fazer Agora
+
+(Cole aqui o que você quer fazer nesta conversa)
+Exemplo: Quero adicionar um botão de voltar em todas as páginas
+Ou Quero que o site tenha um modo escuro automático
+
+⚙️ O Que a IA Deve Fazer
+
+Para que eu não faça perguntas repetidas do que você faz caso eu não entenda e perca chats grátis, explique bem.
+
+Entender o contexto do projeto antes de gerar qualquer resposta.
+
+Analisar o pedido atual e gerar código limpo, funcional e coerente com o layout existente.
+
+Após cada resposta, adicionar uma área explicando o que foi feito, por exemplo:
+
+🧾 Atualização neste chat:
+- Primeiro pedido: adicionado um botão de voltar nas páginas.
+- Segundo pedido: ajustado o cabeçalho para incluir ícone e novo tema.
+
+
+Evitar repetições desnecessárias — o foco é eficiência e continuidade.
+
+Caso perceba uma melhoria útil ou uma automação que evite gasto de mensagens futuras, pode sugerir e implementar.
+
+💡 Observações Importantes
+
+O projeto está hospedado gratuitamente (GitHub Pages).
+
+O nome do site é Nebulous Products.
+
+O objetivo é otimizar o site com o menor número possível de interações, evitando gasto de mensagens.
+
+Sempre priorizar simplicidade, compatibilidade com celular e carregamento rápido.

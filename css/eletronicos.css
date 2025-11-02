@@ -1,58 +1,72 @@
-/* Reset básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* Tema: Azul e cinza moderno */
 body {
     font-family: Arial, sans-serif;
-    background-color: #e6f0fa;
-    color: #0d1f4f;
-    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4ff;
+    color: #333;
 }
 
-/* Cabeçalho */
 header {
-    background-color: #0d47a1; /* Azul principal */
+    background-color: #0057ff;
     color: white;
     text-align: center;
-    padding: 20px 10px;
+    padding: 2rem 1rem;
 }
 
-/* Container dos produtos */
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+    font-size: 1rem;
+}
+
 .produtos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
-    padding: 20px;
+    gap: 1rem;
+    padding: 2rem 1rem;
 }
 
-/* Cada cartão de produto */
 .produto {
-    background-color: #bbdefb;
-    border-radius: 8px;
-    padding: 20px;
-    width: 300px; /* largura padrão */
-    text-align: center;
+    background-color: white;
+    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    transition: transform 0.2s;
+    padding: 1rem;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .produto:hover {
     transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* 🖼️ Imagens */
+.produto img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+
 }
 
 .produto h2 {
-    margin-bottom: 10px;
+    color: #0057ff;
+    font-size: 1.2rem;
 }
 
 .produto a {
     display: inline-block;
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: #0d47a1;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #0057ff;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -60,27 +74,36 @@ header {
 }
 
 .produto a:hover {
-    background-color: #1565c0;
+    background-color: #003bb3;
 }
 
-/* Rodapé */
 footer {
-    background-color: #0d47a1;
-    color: white;
     text-align: center;
-    padding: 15px 10px;
-    margin-top: 20px;
+    padding: 1rem;
+    background-color: #0057ff;
+    color: white;
 }
 
-/* Responsividade */
-@media (max-width: 768px) {
-    .produto {
-        width: 45%; /* dois por linha */
-    }
+    
+
+.btn-voltar {
+
+    position: fixed; /* Fixa o botão na tela */
+    bottom: 720px;    /* Distância da parte inferior */
+    left: 20px;      /* Distância da lateral esquerda */    
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1652ca; /* azul Mercado Livre-like */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    
 }
 
-@media (max-width: 500px) {
-    .produto {
-        width: 90%; /* ocupa quase toda a tela */
-    }
+.btn-voltar:hover {
+    background-color: rgb(1, 46, 78);
+    transform: translateY(-2px);
 }
